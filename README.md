@@ -2,6 +2,12 @@
 
 A new Flutter project.
 
+## Screenshot
+Berikut hasil screenshot aplikasi Flutter pertama saya:
+
+**Nama Lengkap: Diajeng Sekar Arum**
+![Screenshot](images/01.png)
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
