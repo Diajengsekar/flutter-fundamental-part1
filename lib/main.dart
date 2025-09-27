@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'basic_widgets/text_widget.dart'; //tambahkan untuk menuju ke file text_widget.dart
 
 void main() {
   runApp(const MyApp());
@@ -30,7 +31,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const MyHomePage(title: 'Diajeng sekar arum'),
+      home: const MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
 }
@@ -104,7 +105,7 @@ class _MyHomePageState extends State<MyHomePage> {
           // wireframe for each widget.
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            const Text('You have pushed the button this many times:'),
+            const MyTextWidget(), //panggil widget text
             Text(
               '$_counter',
               style: Theme.of(context).textTheme.headlineMedium,
